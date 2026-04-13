@@ -3,7 +3,7 @@
     {
       "id": "hero",
       "description": "A stylish woman in a classy outfit posing in a modern city setting.",
-      "imageUrl": "https://picsum.photos/seed/hero/1920/1080",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776067169/nkins_dnfeoo.png",
       "imageHint": "fashion model"
     },
     {
@@ -15,217 +15,217 @@
     {
       "id": "prod-1-1",
       "description": "Front view of the Elegant Black Midi Dress on a mannequin.",
-      "imageUrl": "https://picsum.photos/seed/p11/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "black dress"
     },
     {
       "id": "prod-1-2",
       "description": "Side view of the Elegant Black Midi Dress.",
-      "imageUrl": "https://picsum.photos/seed/p12/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_seven_tc9syg.jpg",
       "imageHint": "fashion dress"
     },
     {
       "id": "prod-1-3",
       "description": "Close-up of the fabric of the Elegant Black Midi Dress.",
-      "imageUrl": "https://picsum.photos/seed/p13/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_six_pilyzo.jpg",
       "imageHint": "fabric texture"
     },
     {
       "id": "prod-2-1",
       "description": "Satin Cowl Neck Top on a model.",
-      "imageUrl": "https://picsum.photos/seed/p21/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_nine_ck97zn.jpg",
       "imageHint": "satin top"
     },
     {
       "id": "prod-2-2",
       "description": "Back view of the Satin Cowl Neck Top.",
-      "imageUrl": "https://picsum.photos/seed/p22/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "woman back"
     },
     {
       "id": "prod-2-3",
       "description": "Detail of the cowl neck.",
-      "imageUrl": "https://picsum.photos/seed/p23/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_three_gms0t0.jpg",
       "imageHint": "neckline detail"
     },
     {
       "id": "prod-3-1",
       "description": "Full view of the Tailored Blazer & Trouser Set.",
-      "imageUrl": "https://picsum.photos/seed/p31/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_two_kxjrm0.jpg",
       "imageHint": "trouser suit"
     },
     {
       "id": "prod-3-2",
       "description": "Close-up of the blazer.",
-      "imageUrl": "https://picsum.photos/seed/p32/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_one_kqx2gd.jpg",
       "imageHint": "blazer detail"
     },
     {
       "id": "prod-3-3",
       "description": "Model wearing the trouser set.",
-      "imageUrl": "https://picsum.photos/seed/p33/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065512/picture_five_nvzeel.png",
       "imageHint": "fashion model"
     },
     {
       "id": "prod-4-1",
       "description": "Gold Layered Chain Necklace on a neck bust.",
-      "imageUrl": "https://picsum.photos/seed/p41/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "gold necklace"
     },
     {
       "id": "prod-4-2",
       "description": "Model wearing the necklace.",
-      "imageUrl": "https://picsum.photos/seed/p42/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_seven_tc9syg.jpg",
       "imageHint": "woman accessory"
     },
     {
       "id": "prod-4-3",
       "description": "Close up of the necklace chains.",
-      "imageUrl": "https://picsum.photos/seed/p43/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_six_pilyzo.jpg",
       "imageHint": "jewelry detail"
     },
     {
       "id": "prod-5-1",
       "description": "Ribbed Knit Bodycon Dress front view.",
-      "imageUrl": "https://picsum.photos/seed/p51/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_nine_ck97zn.jpg",
       "imageHint": "knit dress"
     },
     {
       "id": "prod-5-2",
       "description": "Model in Ribbed Knit Bodycon Dress.",
-      "imageUrl": "https://picsum.photos/seed/p52/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "bodycon dress"
     },
     {
       "id": "prod-5-3",
       "description": "Fabric detail of Ribbed Knit Bodycon Dress.",
-      "imageUrl": "https://picsum.photos/seed/p53/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_three_gms0t0.jpg",
       "imageHint": "fabric swatch"
     },
     {
       "id": "prod-6-1",
       "description": "Puffy Sleeve Crop Top front view.",
-      "imageUrl": "https://picsum.photos/seed/p61/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_two_kxjrm0.jpg",
       "imageHint": "crop top"
     },
     {
       "id": "prod-6-2",
       "description": "Model wearing Puffy Sleeve Crop Top.",
-      "imageUrl": "https://picsum.photos/seed/p62/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065512/picture_five_nvzeel.png",
       "imageHint": "fashion top"
     },
     {
       "id": "prod-6-3",
       "description": "Detail of the puffy sleeve.",
-      "imageUrl": "https://picsum.photos/seed/p63/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_three_gms0t0.jpg",
       "imageHint": "sleeve detail"
     },
     {
       "id": "prod-7-1",
       "description": "Pleated Wide-Leg Lounge Set.",
-      "imageUrl": "https://picsum.photos/seed/p71/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_three_gms0t0.jpg",
       "imageHint": "lounge set"
     },
     {
       "id": "prod-7-2",
       "description": "Model in Pleated Wide-Leg Lounge Set.",
-      "imageUrl": "https://picsum.photos/seed/p72/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065508/picture_three_gms0t0.jpg",
       "imageHint": "loungewear model"
     },
     {
       "id": "prod-7-3",
       "description": "Fabric detail of the pleated set.",
-      "imageUrl": "https://picsum.photos/seed/p73/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "pleated fabric"
     },
     {
       "id": "prod-8-1",
       "description": "Mini Leather Shoulder Bag.",
-      "imageUrl": "https://picsum.photos/seed/p81/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "leather bag"
     },
     {
       "id": "prod-8-2",
       "description": "Model holding the Mini Leather Shoulder Bag.",
-      "imageUrl": "https://picsum.photos/seed/p82/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "woman handbag"
     },
     {
       "id": "prod-8-3",
       "description": "Close up of the bag's texture.",
-      "imageUrl": "https://picsum.photos/seed/p83/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_seven_tc9syg.jpg",
       "imageHint": "croc leather"
     },
     {
       "id": "prod-9-1",
       "description": "Front view of Floral Print Maxi Dress.",
-      "imageUrl": "https://picsum.photos/seed/p91/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "maxi dress"
     },
     {
       "id": "prod-9-2",
       "description": "Model wearing Floral Print Maxi Dress.",
-      "imageUrl": "https://picsum.photos/seed/p92/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "summer dress"
     },
     {
       "id": "prod-9-3",
       "description": "Close-up of the floral print fabric.",
-      "imageUrl": "https://picsum.photos/seed/p93/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065512/picture_five_nvzeel.png",
       "imageHint": "floral pattern"
     },
     {
       "id": "prod-10-1",
       "description": "Front view of Classic White Button-Down Shirt.",
-      "imageUrl": "https://picsum.photos/seed/p101/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065512/picture_five_nvzeel.png",
       "imageHint": "white shirt"
     },
     {
       "id": "prod-10-2",
       "description": "Model wearing the white shirt, styled.",
-      "imageUrl": "https://picsum.photos/seed/p102/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_nine_ck97zn.jpg",
       "imageHint": "classic style"
     },
     {
       "id": "prod-10-3",
       "description": "Close-up of the cotton fabric.",
-      "imageUrl": "https://picsum.photos/seed/p103/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_nine_ck97zn.jpg",
       "imageHint": "cotton fabric"
     },
     {
       "id": "prod-11-1",
       "description": "Front view of Tweed Skirt and Jacket Set.",
-      "imageUrl": "https://picsum.photos/seed/p111/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "tweed suit"
     },
     {
       "id": "prod-11-2",
       "description": "Model wearing the tweed set.",
-      "imageUrl": "https://picsum.photos/seed/p112/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_ten_qdrtus.jpg",
       "imageHint": "classy outfit"
     },
     {
       "id": "prod-11-3",
       "description": "Detail of the pearl buttons and tweed fabric.",
-      "imageUrl": "https://picsum.photos/seed/p113/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_six_pilyzo.jpg",
       "imageHint": "tweed fabric"
     },
     {
       "id": "prod-12-1",
       "description": "Chunky Hoop Earrings.",
-      "imageUrl": "https://picsum.photos/seed/p121/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_six_pilyzo.jpg",
       "imageHint": "hoop earrings"
     },
     {
       "id": "prod-12-2",
       "description": "Model wearing the Chunky Hoop Earrings.",
-      "imageUrl": "https://picsum.photos/seed/p122/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "woman earring"
     },
     {
       "id": "prod-12-3",
       "description": "Close-up of the earring.",
-      "imageUrl": "https://picsum.photos/seed/p123/800/1200",
+      "imageUrl": "https://res.cloudinary.com/duswkmqbu/image/upload/q_auto/f_auto/v1776065507/picture_eight_tqy9pa.jpg",
       "imageHint": "gold jewelry"
     }
   ]
