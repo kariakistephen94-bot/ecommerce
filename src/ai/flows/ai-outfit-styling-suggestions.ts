@@ -62,7 +62,7 @@ Description: {{{productDescription}}}
 Image: {{media url=productImageUrl}}
 {{/if}}
 
-Provide your suggestions and tips in a JSON format with two keys: \`outfitSuggestions\` (an array of strings) and \`stylingTips\` (an array of strings).
+Provide your suggestions and tips in a JSON format with two keys: "outfitSuggestions" (an array of strings) and "stylingTips" (an array of strings).
 
 Example output:
 \\\`\\\`\\\`json
