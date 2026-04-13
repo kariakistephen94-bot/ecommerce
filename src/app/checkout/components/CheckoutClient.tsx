@@ -30,7 +30,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/hooks/use-toast";
 import { formatPrice } from "@/lib/utils";
@@ -61,15 +61,18 @@ export default function CheckoutClient() {
     },
   });
 
-  if (items.length === 0 && !isOrderSuccess) {
-     if(typeof window !== 'undefined'){
-      router.push("/shop");
+  useEffect(() => {
+    if (items.length === 0 && !isOrderSuccess) {
       toast({
         title: "Your cart is empty",
         description: "Redirecting you to the shop.",
         variant: "destructive"
-      })
+      });
+      router.push("/shop");
     }
+  }, [items.length, isOrderSuccess, router, toast]);
+
+  if (items.length === 0 && !isOrderSuccess) {
     return null;
   }
 
