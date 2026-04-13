@@ -62,15 +62,15 @@ Description: {{{productDescription}}}
 Image: {{media url=productImageUrl}}
 {{/if}}
 
-Provide your suggestions and tips in a JSON format with two keys: `outfitSuggestions` (an array of strings) and `stylingTips` (an array of strings).
+Provide your suggestions and tips in a JSON format with two keys: \`outfitSuggestions\` (an array of strings) and \`stylingTips\` (an array of strings).
 
 Example output:
-```json
+\\\`\\\`\\\`json
 {
   "outfitSuggestions": ["High-waisted black trousers", "Statement silver earrings", "Pointed-toe stiletto heels"],
   "stylingTips": ["For a chic evening look, pair with a tailored blazer and a delicate clutch.", "Dress down with white sneakers and a denim jacket for a casual day out.", "Accessorize with a minimalist chain necklace to draw attention to the neckline."]
 }
-```
+\\\`\\\`\\\`
 Now, generate the JSON output for the given product.`,
 });
 
