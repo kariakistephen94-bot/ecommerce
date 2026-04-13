@@ -33,6 +33,7 @@ import {
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/hooks/use-toast";
+import { formatPrice } from "@/lib/utils";
 
 const checkoutSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
@@ -192,7 +193,7 @@ export default function CheckoutClient() {
                         <p className="font-medium">{item.product.name}</p>
                         <p className="text-sm text-muted-foreground">Size: {item.size}</p>
                       </div>
-                      <p className="font-medium">${(item.product.price * item.quantity).toFixed(2)}</p>
+                      <p className="font-medium">{formatPrice(item.product.price * item.quantity)}</p>
                     </div>
                   );
                 })}
@@ -201,15 +202,15 @@ export default function CheckoutClient() {
               <div className="space-y-2">
                  <div className="flex justify-between">
                     <p className="text-muted-foreground">Subtotal</p>
-                    <p>${totalPrice.toFixed(2)}</p>
+                    <p>{formatPrice(totalPrice)}</p>
                   </div>
                   <div className="flex justify-between">
                     <p className="text-muted-foreground">Shipping</p>
-                    <p>$0.00</p>
+                    <p>{formatPrice(0)}</p>
                   </div>
                    <div className="flex justify-between font-bold text-lg">
                     <p>Total</p>
-                    <p>${totalPrice.toFixed(2)}</p>
+                    <p>{formatPrice(totalPrice)}</p>
                   </div>
               </div>
             </CardContent>

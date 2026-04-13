@@ -10,7 +10,7 @@ import { Label } from '@/components/ui/label';
 import { QuantitySelector } from '@/components/QuantitySelector';
 import { useCart } from '@/hooks/useCart';
 import { useToast } from '@/hooks/use-toast';
-import { cn } from '@/lib/utils';
+import { cn, formatPrice } from '@/lib/utils';
 import OutfitSuggestions from './OutfitSuggestions';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
@@ -92,7 +92,7 @@ export default function ProductDetailsClient({ product }: ProductDetailsClientPr
         <div>
           <p className="text-sm font-medium text-accent">{product.category.toUpperCase()}</p>
           <h1 className="text-3xl lg:text-4xl font-bold mt-1">{product.name}</h1>
-          <p className="text-3xl font-semibold mt-4">${product.price.toFixed(2)}</p>
+          <p className="text-3xl font-semibold mt-4">{formatPrice(product.price)}</p>
         </div>
 
         {product.sizes.length > 1 && (

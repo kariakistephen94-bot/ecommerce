@@ -3,6 +3,7 @@ import Image from 'next/image';
 import type { Product } from '@/lib/types';
 import { placeholderImages } from '@/lib/placeholder-images';
 import { Card, CardContent } from '@/components/ui/card';
+import { formatPrice } from '@/lib/utils';
 
 interface ProductCardProps {
   product: Product;
@@ -40,7 +41,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <CardContent className="p-4">
           <h3 className="font-medium truncate">{product.name}</h3>
           <p className="text-sm text-muted-foreground mt-1">{product.category}</p>
-          <p className="font-semibold mt-2">${product.price.toFixed(2)}</p>
+          <p className="font-semibold mt-2">{formatPrice(product.price)}</p>
         </CardContent>
       </Link>
     </Card>

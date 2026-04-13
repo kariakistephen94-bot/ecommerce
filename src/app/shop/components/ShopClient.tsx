@@ -14,6 +14,7 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
+import { formatPrice } from "@/lib/utils";
 
 interface ShopClientProps {
   products: Product[];
@@ -28,7 +29,7 @@ export default function ShopClient({ products, initialCategory }: ShopClientProp
   
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [sortOption, setSortOption] = useState("newest");
-  const [priceRange, setPriceRange] = useState([0, 300]);
+  const [priceRange, setPriceRange] = useState([0, 450000]);
 
   useEffect(() => {
      const category = searchParams.get('category');
@@ -99,14 +100,14 @@ export default function ShopClient({ products, initialCategory }: ShopClientProp
             <Slider
               min={0}
               max={maxPrice}
-              step={10}
+              step={1000}
               value={priceRange}
               onValueChange={(value) => setPriceRange(value)}
               className="my-4"
             />
             <div className="flex justify-between text-sm text-muted-foreground">
-              <span>${priceRange[0]}</span>
-              <span>${priceRange[1]}</span>
+              <span>{formatPrice(priceRange[0])}</span>
+              <span>{formatPrice(priceRange[1])}</span>
             </div>
           </div>
 

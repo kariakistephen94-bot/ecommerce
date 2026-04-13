@@ -9,9 +9,10 @@ import { Separator } from '@/components/ui/separator';
 import { QuantitySelector } from '@/components/QuantitySelector';
 import { placeholderImages } from '@/lib/placeholder-images';
 import { X } from 'lucide-react';
+import { formatPrice } from '@/lib/utils';
 
 export default function CartClient() {
-  const { state, dispatch, totalPrice, cartCount } = useCart();
+  const { state, dispatch, totalPrice } = useCart();
   const { items } = state;
 
   if (items.length === 0) {
@@ -59,14 +60,14 @@ export default function CartClient() {
                     {item.product.name}
                   </Link>
                   <p className="text-sm text-muted-foreground">Size: {item.size}</p>
-                  <p className="text-sm text-muted-foreground mt-2">${item.product.price.toFixed(2)}</p>
+                  <p className="text-sm text-muted-foreground mt-2">{formatPrice(item.product.price)}</p>
                 </div>
                 <div className="flex flex-col items-end gap-2">
                   <QuantitySelector 
                     quantity={item.quantity} 
                     setQuantity={(q) => handleUpdateQuantity(item.id, q)}
                   />
-                  <p className="font-semibold">${(item.product.price * item.quantity).toFixed(2)}</p>
+                  <p className="font-semibold">{formatPrice(item.product.price * item.quantity)}</p>
                 </div>
                 <Button variant="ghost" size="icon" className="ml-4 self-start" onClick={() => handleRemoveItem(item.id)}>
                   <X className="h-4 w-4" />
@@ -84,7 +85,7 @@ export default function CartClient() {
         <CardContent className="space-y-4">
           <div className="flex justify-between">
             <p className="text-muted-foreground">Subtotal</p>
-            <p>${totalPrice.toFixed(2)}</p>
+            <p>{formatPrice(totalPrice)}</p>
           </div>
           <div className="flex justify-between">
             <p className="text-muted-foreground">Shipping</p>
@@ -93,7 +94,7 @@ export default function CartClient() {
           <Separator />
           <div className="flex justify-between font-bold text-lg">
             <p>Total</p>
-            <p>${totalPrice.toFixed(2)}</p>
+            <p>{formatPrice(totalPrice)}</p>
           </div>
         </CardContent>
         <CardFooter>
